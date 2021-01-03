@@ -8,14 +8,14 @@ while n > 0:
 
     checkowner = int(input('Code Check Owner :'))
 
-    if checkowner == 18622089:
+    if checkowner == 12345:
         usernameowner = input('Username Owner :')
         passowner = input('Password :')
         n = -1
     else:
         time.sleep(0.5)
         print('Code Wrong!!!')
-        print('Contact me 0900410409')
+        print('Contact me (+66)888888888')
         time.sleep(2)
 
 def insertVaribleIntoTable(USERNAME, PASSWORD, PERMISSION):
