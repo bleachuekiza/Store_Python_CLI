@@ -1,5 +1,10 @@
 import sqlite3
 import time
+# Module Store
+import SetupStore
+import SetOwner
+import Store
+# Module Store
 
 n = 1
 
@@ -13,11 +18,11 @@ while n > 0:
     want = int(input())
 
     if want == 1:
-        import SetupStore
+        SetupStore.createdb()
     if want == 2:
-        import SetOwner
+        SetOwner.menu()
     if want == 3:
-        import Store
+        Store.menu()
     if want == 4:
         time.sleep(0.2)
         n = -1
