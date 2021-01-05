@@ -26,6 +26,7 @@
 # Learned From Project
 - เขียนแบบ Module และเรียกใช้งานผ่าน Function
 - การเพิ่มข้อมูลลงฐานข้อมูลของ sqlite3 จากข้อมูลที่ input เข้ามา
+
   file : addstore.py
 - เช็คการใช้ข้อมูลซ้ำจากฐานข้อมูล
   เช็คจากการใช้ fetchone
